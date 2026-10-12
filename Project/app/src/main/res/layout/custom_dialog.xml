@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/dialog_round"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.6"
+        android:text="내용을 입력해 주세요"
+        tools:ignore="Suspicious0dp">
+
+    <EditText
+        android:width="1dp"
+        tools:ignore="ChildInNonViewGroup" />
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="right">
+
+        <Button
+            android:id="@+id/button81"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cancel"/>
+
+        <Button
+            android:id="@+id/button82"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>
